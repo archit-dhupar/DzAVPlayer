@@ -22,8 +22,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "AVPlayerAdapter",
-            url: "https://github.com/archit-dhupar/DzAVPlayer/releases/download/0.0.3/AVPlayerAdapter.xcframework.zip",
-            checksum: "2e45a36e413dd408994430defd9d6f75463e0d832688b590b67697cd750c7c58"),
+            url: "https://github.com/archit-dhupar/DzAVPlayer/releases/download/0.0.4/AVPlayerAdapter.xcframework.zip",
+            checksum: "ca56d34f2efbcd9fa26f5712087cbbeccb90149148621f80da0c4cf2b39eeaa5"),
     ],
     swiftLanguageVersions: [.v5]
 )
