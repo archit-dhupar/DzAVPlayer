@@ -4,13 +4,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "DzAVPlayerAdapter",
+    name: "DzAVPlayer",
     platforms: [.iOS(.v16)],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "DzBase",
-            targets: ["DzBase", "DzAVPlayerAdapter"]),
+            name: "DzAVPlayerAdapter",
+            targets: ["DzAVPlayerAdapter"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
