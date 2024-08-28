@@ -21,7 +21,7 @@ let package = Package(
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
-            name: "AVPlayerAdapter",
+            name: "DzAVPlayerAdapter",
             url: "https://github.com/archit-dhupar/DzAVPlayer/releases/download/0.0.6/DzAVPlayerAdapter.xcframework.zip",
             checksum: "77d541df36c2e572c41fe975d4cd4ed6c4c6442e57505676f308b56a79649edd"),
     ],
