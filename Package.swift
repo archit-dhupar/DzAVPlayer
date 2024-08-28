@@ -9,8 +9,8 @@ let package = Package(
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "AVPlayerAdapter",
-            targets: ["AVPlayerAdapter"]),
+            name: "DzAVPlayerAdapter",
+            targets: ["DzAVPlayerAdapter"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -22,7 +22,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "AVPlayerAdapter",
-            url: "https://github.com/archit-dhupar/DzAVPlayer/releases/download/0.0.5/AVPlayerAdapter.xcframework.zip",
+            url: "https://github.com/archit-dhupar/DzAVPlayer/releases/download/0.0.5/DzAVPlayerAdapter.xcframework.zip",
             checksum: "77d541df36c2e572c41fe975d4cd4ed6c4c6442e57505676f308b56a79649edd"),
     ],
     swiftLanguageVersions: [.v5]
