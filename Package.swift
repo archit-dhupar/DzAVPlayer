@@ -10,12 +10,12 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "DzAVPlayerAdapter",
-            targets: ["DzAVPlayerAdapter", "DzBase"]),
+            targets: ["DzAVPlayerAdapter"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        .package(name: "DzBase", url: "https://github.com/archit-dhupar/DzBase.git", .upToNextMajor(from: "0.0.1"))
+       // .package(name: "DzBase", url: "https://github.com/archit-dhupar/DzBase.git", .upToNextMajor(from: "0.0.1"))
     ],
     targets: [
       
