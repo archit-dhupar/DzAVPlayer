@@ -23,8 +23,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "DzAVPlayerAdapter",
-            url: "https://github.com/archit-dhupar/DzAVPlayer/releases/download/0.0.11/DzAVPlayerAdapter.xcframework.zip",
-            checksum: "77d541df36c2e572c41fe975d4cd4ed6c4c6442e57505676f308b56a79649edd"),
+            url: "https://gitlab.com/archit.dhupar/DzTestPod/-/blob/main/sources/0.0.1/DzAVPlayerAdapter.zip",
+            checksum: "f87131dc994cab0e33277a2d6ee593cfc165ee5c5a5849356b07f87ff81ba64a"),
          // .binaryTarget(
          //    name: "DzBase",
          //    url: "https://github.com/archit-dhupar/DzBase/releases/download/0.0.1/DzBase.xcframework.zip",
