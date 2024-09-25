@@ -23,7 +23,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "DzAVPlayerAdapter",
-            url: "https://gitlab.com/archit.dhupar/DzTestPod/-/blob/main/sources/0.0.1/DzAVPlayerAdapter.zip?inline=false",
+            url: "https://gitlab.com/archit.dhupar/DzTestPod/-/raw/main/sources/0.0.1/DzAVPlayerAdapter.zip?inline=false",
             checksum: "f87131dc994cab0e33277a2d6ee593cfc165ee5c5a5849356b07f87ff81ba64a"),
          // .binaryTarget(
          //    name: "DzBase",
